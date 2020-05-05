@@ -1,0 +1,6 @@
+{
+  "admin.app.storefinder-stores": {
+    "component": "FinderRoot",
+    "path": "/admin/app/storefinder/finder"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "stack": "nodejs",
+  "memory": 512,
+  "ttl": 60,
+  "timeout": 60,
+  "minReplicas": 1,
+  "maxReplicas": 4,
+  "runtimeArgs": [
+    "--max_old_space_size=400"
+  ],
+  "routes": {
+    "stores": {
+      "path": "/_v/store-finder/stores",
+      "access": "authorized",
+      "public": true,
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "get"
+          ]
+        }
+      ]
+    }
+  }
+}

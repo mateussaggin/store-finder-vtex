@@ -1,0 +1,60 @@
+{
+  "name": "store-finder",
+  "vendor": "vtex",
+  "version": "0.0.1",
+  "title": "Store Finder",
+  "description": "Find VTEX sellers and Marketplaces",
+  "mustUpdateAt": "2050-01-01",
+  "scripts": {
+    "prereleasy": "./lint.sh",
+    "postreleasy": "vtex publish --public --verbose"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.settings-server": "0.x",
+    "vtex.messages": "1.x",
+    "vtex.admin-graphql": "2.x"
+  },
+  "builders": {
+    "admin": "0.x",
+    "react": "3.x",
+    "graphql": "1.x",
+    "messages": "1.x",
+    "node": "6.x"
+  },
+  "billingOptions": {
+    "support": {
+      "url": "https://support.vtex.com/hc/requests"
+    },
+    "free": true
+  },
+  "policies": [
+    {
+      "name": "ADMIN_CRM"
+    },
+    {
+      "name": "POWER_USER_CRM"
+    },
+    {
+      "name": "ADMIN_DS"
+    },
+    {
+      "name": "POWER_USER_DS"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/dataentities/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "splunk72-indexers-public.vtex.com",
+        "path": "*"
+      }
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

@@ -1,0 +1,12 @@
+query Store ( $id: ID! ) {
+    stores(id: $id) {
+        id
+        logo
+        companyName
+        description
+        country
+        segment
+        type
+        comission
+    }
+}

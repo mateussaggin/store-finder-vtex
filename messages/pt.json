@@ -1,0 +1,22 @@
+{
+  "admin-store-finder.navigation.label-group": "Busca Lojas",
+  "admin-store-finder.navigation.label-stores": "Lojas",
+  "admin-store-finder.navigation.search.kws": "busca seller, busca marketplace, seller, marketplace, lojas",
+  "stores.list.title": "Lojas",
+  "stores.empty": "Não há lojas cadastradas",
+  "store.form.filter.all": "TODOS",
+  "store.form.filter.marketplaces": "MARKETPLACES",
+  "store.form.filter.sellers": "SELLERS",
+  "store.form.search.placeholder": "Buscar loja por nome",
+  "store.form.headers.logo": "Logo",
+  "store.form.headers.companyName": "Nome",
+  "store.form.headers.description": "Descrição",
+  "store.form.headers.country": "País",
+  "store.form.headers.segment": "Segmento",
+  "store.form.headers.type": "Tipo de Loja",
+  "store.form.headers.comission": "Comissão",
+  "showRows": "Mostrar lista",
+  "of": "de",
+  "401": "Erro, você não possui autorização para acessar esta página.",
+  "404": "Erro, tente novamente mais tarde."
+}

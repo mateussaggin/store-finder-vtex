@@ -1,0 +1,33 @@
+type Query {
+  stores(
+    page: Int
+    sort: String
+    order: OrderParam
+    companyName: String
+  ): Stores  @cacheControl(scope: PRIVATE)
+}
+
+type Stores {
+  items: [StoreList]
+  summary: StoresSummary
+}
+
+type StoresSummary {
+  count: Int
+}
+
+type StoreList {
+  id: ID
+  logo: String
+  companyName: String
+  description: String
+  country: String
+  segment: String
+  type: String
+  comission: String
+}
+
+enum OrderParam {
+  asc
+  desc
+}

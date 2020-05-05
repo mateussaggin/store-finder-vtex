@@ -1,0 +1,22 @@
+query Stores (
+    $page: Int
+    $sort: String
+    $order: OrderParam
+    $companyName: String
+) {
+    stores {
+        items {
+            id
+            logo
+            companyName
+            description
+            country
+            segment
+            type
+            comission
+        }
+        summary {
+            count
+        }
+    }
+}

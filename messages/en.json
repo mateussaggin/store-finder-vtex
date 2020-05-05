@@ -1,0 +1,22 @@
+{
+  "admin-store-finder.navigation.label-group": "Find stores",
+  "admin-store-finder.navigation.label-stores": "Store",
+  "admin-store-finder.navigation.search.kws": "search seller, search marketplace, seller, marketplace, stores",
+  "stores.list.title": "Stores",
+  "stores.empty": "No stores found",
+  "store.form.filter.all": "ALL",
+  "store.form.filter.marketplaces": "MARKETPLACES",
+  "store.form.filter.sellers": "SELLERS",
+  "store.form.search.placeholder": "Search store by name",
+  "store.form.headers.logo": "Logo",
+  "store.form.headers.companyName": "Name",
+  "store.form.headers.description": "Description",
+  "store.form.headers.country": "Country",
+  "store.form.headers.segment": "Segment",
+  "store.form.headers.type": "Store type",
+  "store.form.headers.comission": "Comission",
+  "showRows": "Show rows",
+  "of": "of",
+  "401": "Error, it looks like you are not authorized to access this space.",
+  "404": "Network error, please try again later."
+}

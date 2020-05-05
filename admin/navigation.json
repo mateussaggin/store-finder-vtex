@@ -1,0 +1,12 @@
+{
+  "section": "other",
+  "titleId": "admin-store-finder.navigation.label-group",
+  "searchKeyWordsHelpers": "admin-store-finder.navigation.search.kws",
+  "subSection": "store-finder",
+  "subSectionItems": [
+    {
+      "labelId": "admin-store-finder.navigation.label-stores",
+      "path": "/admin/storefinder/finder"
+    }
+  ]
+}
