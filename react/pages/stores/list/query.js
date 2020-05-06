@@ -25,16 +25,6 @@ class StoresList extends Component {
   }
 }
 
-// export default graphql(Stores, {
-//   options: props => ({ variables: { ...props.queryState }, ssr: false }),
-// })(StoresList)
-
 export default graphql(Stores, {
-  options(props) {
-    console.log('query.js props.queryState: ', props.queryState)
-    return {
-      variables: props.queryState,
-      ssr: true
-    };
-  },
-})(StoresList);
+  options: props => ({ variables: { ...props.queryState }, ssr: false }),
+})(StoresList)
