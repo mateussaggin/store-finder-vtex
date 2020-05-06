@@ -18,7 +18,7 @@ export async function searchStoresServices({
     const data = {
         acronym: DEFAULT_ACRONYM,
         pagination,
-        where: args.where || '',
+        companyName: args.companyName || '',
         schema: args.schema || '',
         sort: args.sort || '',
         order: args.order || 'ASC',
